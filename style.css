@@ -69,16 +69,33 @@ h1 span {
 .rsdown {
   cursor: pointer;
 }
-.exp{
+.exp {
   text-align: center;
   font-size: 45px;
   padding: 20px 0;
-  background-color: rgba(121, 250, 74,.1);
+  background-color: rgba(121, 250, 74, 0.1);
 }
-.expsection{
-  margin-top: 20px;
-}
-.expdiv{
+
+.expdiv {
   background-color: #f4f6f1;
   margin: 40px;
+  box-shadow: 10px 10px 40px gray;
+  border-radius: 0px 20px 20px 0px;
+}
+.expsection {
+  margin-top: 20px;
+  background-image: url(images/Polygon\ 1.png);
+  background-repeat: no-repeat;
+}
+.expdiv:first-child {
+  border-left: 10px solid;
+  border-image: linear-gradient(#59ff1f, rgba(32, 114, 2, 0.815)) 28;
+}
+.expdiv:last-child {
+  border-left: 10px solid;
+  border-image: linear-gradient(#59ff1f, rgba(32, 114, 2, 0.815)) 28;
+}
+footer p {
+  text-align: center;
+  margin: 40px 0;
 }
