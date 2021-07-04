@@ -8,7 +8,7 @@ body {
 
   background-color: rgb(241, 250, 225);
 }
-section {
+.flexiable {
   display: flex;
 }
 
@@ -68,4 +68,17 @@ h1 span {
 }
 .rsdown {
   cursor: pointer;
+}
+.exp{
+  text-align: center;
+  font-size: 45px;
+  padding: 20px 0;
+  background-color: rgba(121, 250, 74,.1);
+}
+.expsection{
+  margin-top: 20px;
+}
+.expdiv{
+  background-color: #f4f6f1;
+  margin: 40px;
 }
