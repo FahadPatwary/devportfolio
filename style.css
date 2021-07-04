@@ -5,13 +5,12 @@ body {
 }
 body {
   font-family: "Poppins", sans-serif;
-  
+
   background-color: rgb(241, 250, 225);
 }
 section {
   display: flex;
 }
-
 
 .Two {
   position: absolute;
@@ -20,35 +19,34 @@ section {
 }
 
 /*Half-width*/
-.half-width{
-    width: 50%;
-    padding: 5%;
+.half-width {
+  width: 50%;
+  padding: 5%;
 }
 
-.heroTextContainer{
-    
-    margin: 100px;
-    margin-right: 50px;
-   
+.heroTextContainer {
+  margin-top: 200px;
+  margin-left: 70px;
 }
-.heroTextContainer img{
+.heroTextContainer img {
   width: 80%;
 }
-h1{
-    font-size: 40px;
-    line-height: 40px;
+h1 {
+  font-size: 40px;
+  line-height: 40px;
 }
-h1 span{
-    color:#29C54B;
+h1 span {
+  color: #29c54b;
 }
-.half-width p{
+.half-width p {
   margin-top: 30px;
 }
-.half-width a{ 
-  
+.mybutton {
+  background: linear-gradient(180deg, #59ff1f 0%, rgba(20, 70, 3, 0.87) 100%);
+
   padding: 15px 50px;
   border: none;
-  background-color: #29C54B;
+
   font-weight: 600;
   border-radius: 5px;
   color: white;
@@ -57,15 +55,17 @@ h1 span{
   margin-top: 30px;
 }
 
-.half-width a:hover {
-  color: white;
-  background-color: #19ee8a;
+.mybutton:hover {
+  background: linear-gradient(0deg, #59ff1f 0%, rgba(20, 70, 3, 0.87) 100%);
 }
-.dream-big image{
+.dream-big image {
   width: 80%;
 }
-.dream-big{
+.dream-big {
   background-image: url(images/Round.png);
   background-repeat: no-repeat;
-  background-position:right ;
+  background-position: right;
+}
+.rsdown {
+  cursor: pointer;
 }
